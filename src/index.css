@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.bg-image {
+  @apply bg-primary;
+  background-image: radial-gradient(#94a3b8 1%, transparent 0);
+  background-size: 35px 35px;
+}
